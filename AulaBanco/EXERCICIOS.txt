@@ -1,0 +1,57 @@
+[07:45] Marcel Thomé Filho
+    
+/*Alguns exercícios:
+Criar a tabela Automovel
+placa - A - 7 - Pk
+marca - A - 20 - Nn
+modelo - A - 20 - Nn
+cor - A - 15 - Nn
+preco_tabela - N - 8,2 - Nn
+ano_modelo - N - 4 - Nn
+
+
+Dados
+EDG3K22 - Vw - Fusca - Azul - 60.000,00 - 2020
+JJC2C22 - Ford - Fiesta - Prata - 18.000,00 - 1999
+AJB4J21 - Chevrolet - Corsa - Vermelho - 7.500,00 - 1998
+QQQ8Y00 - Fiat - Moby - Branco - 66.000,00 - 2022
+WWW7W77 - Vw - Jetta Tsi - Prata - 90.000,00 - 2018
+DDD9B43 - Ford - Mustang - Preto - 150.000,00 - 2019
+ZAQ9K88 - Chevrolet - Traker - Verde - 178.000,00 - 2018
+KKK6N00 - Fiat - Punto - Amarelo - 45.600,00 - 2000
+
+
+Exercícios:
+Criar um bloco PL para inserir os dados
+Criar um bloco PL para exibir os automóveis cadastrados
+Criar um bloco PL para mostrar um veículo pré determinado, entrada: placa
+Criar um bloco Pl para aumentar em 2,5% o valor de todos os veículos.
+
+
+Criar a tabela Cliente
+cpf - C - 11 - Pk
+nm_cli - A - 20 - Nn
+fone_cli - A - 9 - Nn
+Inserir 5 linhas de dados
+
+
+Criar a tabela NF
+num_nf - N - 6 - Pk
+dt_emissao - D - Nn
+fk_clie - Fk
+fk_auto - Fk
+valor_venda - N - 10,2
+
+
+Criar um bloco PL para preecher a NF
+Entrada: Número NF: pode ser digitado, inicando em 1 ou criar uma sequence,
+         cpf do cliente, placa do veículo
+Processamento: valor_venda: valor_tabela + 15%
+cadastrar a venda na NF
+
+
+
+
+
+
+<https://teams.microsoft.com/l/message/19:6050216a961747d8a44940e703e0c104@thread.tacv2/1653475511229?tenantId=11dbbfe2-89b8-4549-be10-cec364e59551&amp;groupId=14a0a507-4f67-4049-9d7e-a03dbf2fe8f8&amp;parentMessageId=1653475404243&amp;teamName=2TDSA-2022&amp;channelName=Database Application E Data Science&amp;createdTime=1653475511229>
